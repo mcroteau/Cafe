@@ -1,0 +1,11 @@
+*.classpath
+*.project
+*.settings
+*.db
+*.idea
+*.iml
+*.properties
+*.asc
+*.DS_Store
+output
+
