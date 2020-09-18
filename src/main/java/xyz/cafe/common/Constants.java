@@ -5,7 +5,8 @@ public class Constants {
     public static final String USER = "sa";
     public static final String PASS = "";
 
-    public static final String URL  = "jdbc:h2:tcp://localhost:9092/~/Desktop/Cafe/exec/cafe";
+    public static final String URL  = "jdbc:h2:tcp://localhost:9092/" +
+            "~/Development/Projects/Cafe/exec/cafe";
 
     public static final String PARAKEET_LOOKUP  = "Parakeet";
     public static final String USER_DAO_LOOKUP  = "UserDao";
