@@ -14,6 +14,18 @@
         <url-pattern>/create</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>SigninServlet</servlet-name>
+        <servlet-class>xyz.cafe.web.SigninServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SigninServlet</servlet-name>
+        <url-pattern>/signin</url-pattern>
+    </servlet-mapping>
+
+
     <listener>
         <listener-class>
             xyz.cafe.startup.AppStartup
