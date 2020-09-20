@@ -2,7 +2,7 @@ package xyz.cafe.factory;
 
 import io.github.mcroteau.Parakeet;
 import io.github.mcroteau.resources.access.Accessor;
-import xyz.ioc.access.JdbcAccessor;
+import xyz.cafe.access.JdbcAccessor;
 
 public class ParakeetFactory {
 
